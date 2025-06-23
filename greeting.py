@@ -1,14 +1,17 @@
-from datetime import datetime
 
-def greet():
+from datetime import datetime
+name = int(input('your name'))
+def greet(name):
     hour = datetime.now().hour
     if hour <= 11:
-        message = 'Good morning'
+        message = 'Good morning name san!'
     elif hour <= 17:
-        message = 'Hello'
+        message = 'Hello name san!'
     else:
-        message = 'Good evening'
+        message = 'Good evening name san!'
+
+
     print(message)
 
 
-greet()
+greet('Inoue')
