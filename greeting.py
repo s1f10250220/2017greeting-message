@@ -1,6 +1,6 @@
-
+name = input('your name: ')
 from datetime import datetime
-name = int(input('your name'))
+
 def greet(name):
     hour = datetime.now().hour
     if hour <= 11:
