@@ -1,4 +1,4 @@
-name = input('your name: ')
+
 from datetime import datetime
 
 def greet(name):
